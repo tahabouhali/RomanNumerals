@@ -13,11 +13,8 @@ public class RomanNumerals {
         X(10),
         XL(40),
         L(50),
-
         ;
-
         int value;
-
         romanNum(int value) {
             this.value = value;
         }
@@ -30,7 +27,6 @@ public class RomanNumerals {
 
     public  String convertir(int nombre) {
         StringBuilder resultat = new StringBuilder();
-
         int reste = nombre ;
         List<romanNum> numerals = Arrays.asList(romanNum.values());
         Collections.reverse(numerals);
