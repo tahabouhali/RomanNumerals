@@ -30,7 +30,7 @@ public class RomanNumeralsTest {
     @Test
     public void shoudReturnIXif9(){
 
-        assertEquals("IX",romanNumerals.convertir(4));
+        assertEquals("IX",romanNumerals.convertir(9));
     }
     @Test
     public void shoudReturnXif10(){
